@@ -1,0 +1,16 @@
+0.  Is a lung disease also known as silicosis. It is also the longest word in the english language.
+1.  It returns resource usage statistics
+2.  It has 16 members.
+3.  To take into account the run time required to get to the function call.
+4.  The loop reads character by character from the file, until the end of file. 
+Each character is appended to a word array until the word contains "\0" character (the word ends). 
+For the words, only alphabetical characters are allowed. Words containing numbers are ignored.
+A check is made to see whether the word was misspelled. If it is, it is printed.
+5.  I think you used fgetc to allow us to use tries for storing. 
+Also, fscanf reads chunks of data that need to be processed character by character anyway.
+Furthermore, the length of the word is unknown at first, but kind of required for fscanf.
+6.  They were declared as const as a safety measure (we don't want them to be modified by mistake) during the function.
+7.  I have used a trie with each node containing a bool to test if we have a word and 26+1 pointer spaces.
+8.  I have used trie structure from the beginning, so < 0.2s total
+9.  None to improve performance, many to fix leaks
+10. I am not aware of any bottlenecks.

@@ -1,0 +1,20 @@
+0.  GIF supports 8 bits per pixel. BMP, JPG, PNG support 24 bits per pixel.
+1.  Only GIF format supports animation.
+2.  Lossy compression - when uncompressing the file, only part of the information is there, and the file size is much reduced. Lossless compression - all information is available after uncompressing.
+3.  JPG is lossy - compressed.
+4.  The system modifies the first character of the file name to mark it as deleted, and adds that cluster to the free cluster list. The data is not deleted.
+5.  Degauss the drive, or overwrite the data using special sanitization tools.
+6.  stdint.h - Provides typedefs and macros for fixed-width integral types in accordance with the C99 standard (provides portability across platforms and compilers).
+7.  uint_8t - unsigned int of 8 bits, uint32_t - unsigned int of 32 bits, int32_t - signed int of 32 bits, uint16_t - unsigned int of 16 bits (all cross platform)
+    The point of using them is to have portability across platforms.
+8.  BYTE - 1 byte, DWORD - 4 bytes,  LONG - 4 bytes, WORD - 2 bytes
+9. First 2 bytes of bmp are the BITMAPFILEHEADER 
+10. bisize - the number of bytes required by the structure, bfsize - the size, in bytes, of the info file
+11. The bitmap is top-down if biHeight is negative
+12. biBitCount-sets the color depth
+13. copy.c's fopen might return NULL if the permission settings do not allow writing of that file.
+14. The third parameter is always one because we want to read chunks of 1 byte.
+15. padding=3 because 3x3 + padding (=3) = 12, which must be multiple of 4 bytes
+16. fseek repositions a stream
+17. SEEK_CUR - Parameter for the current file position (used by fseek)
+18. Rick Astley

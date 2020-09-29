@@ -1,0 +1,124 @@
+/* Set style for all label in shapes div*/
+#shapes [id^='label'] {
+    background-color: #EFEFEF;
+    font-size: larger;
+	line-height: 200%;
+}
+
+/* Set style for all selects in standard shapes div*/
+#shapes [id^='select']{
+    position: absolute;
+    left: 180px;
+	width: 140px;
+    
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+	margin=15px;
+	font-size: medium;
+}
+
+/* Set style for all type inputs shapes div*/
+#shapes [id^='type']{
+		float: left;
+    position: absolute;
+    left: 320px;
+    
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+	margin=15px;
+	font-size: medium;
+}
+
+/* Set style for all inputs in standard shapes div*/
+#shapes [id^='slope'], [id^='up'], [id^='down'], [id^='height'], [id^='side'], [id^='alpha'], [id^='radius'], [id^='length'], [id^='width'], [id^='area'], [id^='lines'], [id^='hip'], [id^='ridge'], [id^='valley'], [id^='rake']{
+    position: absolute;
+    left: 180px;
+	width: 115px;
+    
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+	margin=15px;
+	font-size: medium;
+}
+
+/* Set style for all line direction inputs in free form shapes div*/
+#shapes [id^='dirline']{
+    position: absolute;
+    left: 180px;
+    width: 70px;
+	
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+	margin=15px;
+	font-size: medium;
+}
+
+/* Set style for all line length inputs in free form shapes div*/
+#shapes [id^='dimline']{
+    position: absolute;
+    left: 250px;
+    width: 45px;
+	
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+	margin=15px;
+	font-size: medium;
+}
+
+/* Set style for all line type inputs in free form shapes div*/
+#shapes [id^='typeline']{
+    position: absolute;
+    left: 317px;
+    width: 100px;
+	
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+	margin=15px;
+	font-size: medium;
+}
+
+/* Set style for all images in standard shapes div*/
+#shapes img  {
+    position: absolute;
+    left: 430px;
+}
+
+/* Style for + and - buttons*/
+#shapes [id^='scaleup'], [id^='scaledown']{
+    position: relative;
+    left: 500px;
+ }
+
+/* Set style for canvas in free shapes div*/
+#shapes canvas  {
+    position: absolute;
+    left: 450px;
+}
+
+/* Set style for the three buttons below the shapes div*/
+#buttons input{
+	float: left;
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+	margin=15px;
+	font-size: medium;
+}
+
+/* Body background color*/
+body {
+    background-color: #EFEFEF;
+}
+
+/* Set final canvas color */
+#canvas {
+			position: relative;
+            left: 50px;
+			top: 50px;
+        }

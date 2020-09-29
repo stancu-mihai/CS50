@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. 3x3,5x5,6x6,7x7,8x8,9x9
+1. The data structure is represented with a 2D array of integer
+2. The greet() function is called
+3. init, draw, move and won functions have to be implemented
